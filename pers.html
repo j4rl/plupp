@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<script>
+    $( function() {
+    var pers=
+    [
+    "Ahlin, Susanne, AHSE",
+    "Ali, Hussein, HNAI",
+    "Andersen, Jenny, ANYY",
+    "Andersson, Jonas, ADJS",
+    "Andersson, Maria, ANMA",
+    "Andréasson, Pia, ADPA",
+    "Anne, Inkin, IKAE",
+    "Augustsson, Thomas, AUTS",
+    "Becker, Johan, BRJN",
+    "Berg, Madeleine, BOME",
+    "Berndt, Anna, BTN",
+    "Berntsson, Monica, BNMO",
+    "Book, Åsa, BKAS",
+    "Borg, Linnea, BGLN",
+    "Bui, An, NGB",
+    "Bull, Gun, BLGN",
+    "Carlson, Christer, KSC",
+    "Chamoun, Lilyan, CHLN",
+    "Diab, Samir, DBSR",
+    "Edlund, Tina, EDT",
+    "Edström, Tone, EMTE",
+    "Ekberg, Leif, EGLF",
+    "Elfström, Jimmy, EMJ",
+    "Engborg, Lisa, EBLA",
+    "Enghag, Susanne, EGSE",
+    "Eriksson Öhrn, Eva, ERE",
+    "Erngren, Boo, EGB",
+    "Flemström, Lars, FMLS",
+    "Forsberg, Jan, FGJN",
+    "Forslund, Johanna, FDJA",
+    "Frandsen, Helena, FNHA",
+    "Franz, Ulrike, FZU",
+    "Fredriksson, Linda, FILA",
+    "Fredrixon, Mikael, FNM",
+    "Fröberg, Christian, PNCN",
+    "Garpedal, Eva-Lena, GLE",
+    "Haettman, Daniel, HAD",
+    "Haglund, Hans, HDH",
+    "Haraldsson, Susanne, HASE",
+    "Hariri, Asmaá, HIAS",
+    "Hede Fahlin, Ann-Marie, EEN",
+    "Heggen, Gunnar, HNGR",
+    "Helgesson, Bodil, HED",
+    "Henriksson, Agneta, HNA",
+    "Högberg, Jonas, HGJ",
+    "Inkin, Robert, INR",
+    "Iwersén, Lotta, INL",
+    "Jarl, Charlie, JLC",
+    "Johanna, Lundström, LUJA",
+    "Johansson, Eje, JHE",
+    "Jonsson, Eline, JSEE",
+    "Karlsson, Anders, KNAS",
+    "Karlsson, Ann-Catrin, KNN",
+    "Karlsson, Kent, KAKT",
+    "Kjämpe, Dennis, KEDS",
+    "Klaw Lindstedt, Liselotte, KWL",
+    "Kocdemir, Nurullah, KRNH",
+    "Kojadinovic, Dragan, KCD",
+    "Kull, Marcus, BIK-MK",
+    "Landin Jonsson, Johanna, LDJA",
+    "Lars, Weman, WELS",
+    "Larsson, Hanna, LAHA",
+    "Larsson, Karl-Erik, LNKK",
+    "Leandersson, Marcus, LEMS",
+    "Lindstedt, Jonna, LTJA",
+    "Lööw, Chelsea Ann, LWCA",
+    "Malmgren, Veronica, MNVA",
+    "Mohammad Abdullah, Drekshan, ABD",
+    "Molnstrand, Melissa, DCM",
+    "Moreno Zuniga, Margarita, MOMA",
+    "Mälman, Kim, PNKM",
+    "Nasser, Ayad, NRAD",
+    "Nguse, Habte Hadege, HENE",
+    "Nilsson, Henrietta, NNH",
+    "Nilsson, Mattias, NNT",
+    "Nyman, Lena, NMLA",
+    "Nyströmer, Lena, KIL",
+    "Oldenburg-Johansson, Susanne, ONS",
+    "Olsson, Fredrik, ONFK",
+    "Olsson, Jonny, ONJY",
+    "Olsson, Mattias, ONMS",
+    "Olsson, Stefan, OHSN",
+    "Omar, Ali, OIAI",
+    "Oskarsson, Johanna, ONJA",
+    "Pallin, Dan, PNDN",
+    "Roden, Helen, RNHN",
+    "Ringdahl, Erik, RLEK",
+    "Rundgren, Linus, RULS",
+    "Sadeghi, Eshagh, SIEH",
+    "Sam, Amir, SMAR",
+    "Schoultz, Johan, BIK",
+    "Storm, Stefan, SOSN",
+    "Sundén, Robert, SNR",
+    "Sundqvist Kuusela, Karin, STKN",
+    "Svanberg, Fredrik, SVFK",
+    "Svedell, Nicklas, SLNS",
+    "Svärd, Rebecca, SDRA",
+    "Söderlund, Katrin, KOK",
+    "Thomasén, Carina, SMC",
+    "Thunberg, Tobias, TGT",
+    "Wahlström, Malin, WMMN",
+    "Wållberg, Lena, WGL",
+    "Ylitalo, Marja, YAMA",
+    "Zetterlund, Emmalill, ZDEL"
+    ];
+        $("#show").autocomplete({
+            source: pers
+        });
+    });
+</script>
+<form class="ui-widget">
+    <label for="show">Sök personal på namn eller förkortning: </label>
+    <input id="show">
+  </div>
+</body>
+</html>
